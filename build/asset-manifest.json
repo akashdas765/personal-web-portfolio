@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff86de26.css",
+    "main.js": "/static/js/main.9822b210.js",
+    "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
+    "static/media/banner-bg.png": "/static/media/banner-bg.4e475b78155ee82be331.png",
+    "static/media/smart-parking-system.png": "/static/media/smart-parking-system.4c40cd893c7540b1eab7.png",
+    "static/media/Image-Translation Icon.png": "/static/media/Image-Translation Icon.b723060bc560ed07353a.png",
+    "static/media/rock-paper-scissor.png": "/static/media/rock-paper-scissor.4c53eca49d4979b064e6.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.84a77a429b955664fe3a.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/mental-health-icon.webp": "/static/media/mental-health-icon.077f304afb3dd225c4e7.webp",
+    "static/media/favicon.png": "/static/media/favicon.83bd8cb4613933f3c1ed.png",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/header-img.png": "/static/media/header-img.44cd1c565f7c8302a287.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/static/media/meter2.561fef23ed496990eb6b3143aaf40d06.svg",
+    "static/media/meter1.svg": "/static/media/meter1.8258e2e87b227e03779a2d02290abe8a.svg",
+    "static/media/meter3.svg": "/static/media/meter3.cbf1553a8364c8031ebdddbf83251942.svg",
+    "static/media/logo.svg": "/static/media/logo.912f414f6fafeab8914430940e434f88.svg",
+    "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/index.html",
+    "main.ff86de26.css.map": "/static/css/main.ff86de26.css.map",
+    "main.9822b210.js.map": "/static/js/main.9822b210.js.map",
+    "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff86de26.css",
+    "static/js/main.9822b210.js"
+  ]
+}
