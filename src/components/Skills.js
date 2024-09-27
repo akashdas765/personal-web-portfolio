@@ -83,73 +83,71 @@ export const Skills = () => {
                               </Carousel>
                             </Tab.Pane>
                           </Tab.Content>
-                          <Tab.Content>
                           <Tab.Pane eventKey="second">
-                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Tensorflow</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter3} alt="Image" />
-                                        <h5>PyTorch</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Scikit-Learn</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Amazon Web Services</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>MYSQL</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter2} alt="Image" />
-                                        <h5>Teradata</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter3} alt="Image" />
-                                        <h5>Transformer Models</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Flask</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Django</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter3} alt="Image" />
-                                        <h5>OpenCV</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Librosa</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>Convoluted Neural Networks</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>BERT</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter1} alt="Image" />
-                                        <h5>GPT</h5>
-                                    </div>
-                                    <div className="item">
-                                        <img src={meter2} alt="Image" />
-                                        <h5>Vision Transformers</h5>
-                                    </div>
-                            </Carousel>
-                        </Tab.Pane>
-                        </Tab.Content>
-                    </Tab.Container>
+                          <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Tensorflow</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter3} alt="Image" />
+                                      <h5>PyTorch</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Scikit-Learn</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Amazon Web Services</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>MYSQL</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter2} alt="Image" />
+                                      <h5>Teradata</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter3} alt="Image" />
+                                      <h5>Transformer Models</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Flask</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Django</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter3} alt="Image" />
+                                      <h5>OpenCV</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Librosa</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>Convoluted Neural Networks</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>BERT</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter1} alt="Image" />
+                                      <h5>GPT</h5>
+                                  </div>
+                                  <div className="item">
+                                      <img src={meter2} alt="Image" />
+                                      <h5>Vision Transformers</h5>
+                                  </div>
+                              </Carousel>
+                    </Tab.Pane>
+                        </Tab.Container>
                     </div>
                 </div>
             </div>
