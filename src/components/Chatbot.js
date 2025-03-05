@@ -20,7 +20,7 @@ const Chatbot = () => {
         setQuery("");
 
         try {
-            let res = await fetch(`http://127.0.0.1:8000/ask?query=${encodeURIComponent(query)}`);
+            let res = await fetch(`https://portfolio-chatbot-30wi.onrender.com/ask?query=${encodeURIComponent(query)}`);
             let data = await res.json();
 
             // Add Bot's Response
