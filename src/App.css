@@ -557,7 +557,74 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.proj-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
 
+.proj-card:hover {
+  transform: translateY(-10px);
+}
+
+.proj-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.proj-img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.proj-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.proj-img-wrapper:hover .proj-overlay {
+  opacity: 1;
+}
+
+.code-description {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.github-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.github-btn:hover {
+  transform: scale(1.1);
+}
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(0, #184598 -15.91%, #000000 50.58%);
@@ -565,6 +632,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact img {
   width: 92%;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #107caa;
+  border-radius: 8px;
+  background: #011c5c;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2196f3;
+  outline: none;
+  background: #0a2540;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background-color: #107caa;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0a5c7d;
+}
+
+.contact-img {
+  width: 100%;
+  max-width: 400px;
 }
 .contact h2 {
 	font-size: 45px;
@@ -739,4 +846,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -1;
   pointer-events: none;
   opacity: 0.1;
+}
+
+.custom-modal .modal-content {
+  background-color: #010d28;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.custom-modal .modal-header {
+  border-bottom: none;
+  justify-content: center;
+}
+
+.custom-modal .modal-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.custom-modal .modal-body {
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.custom-modal .btn-close {
+  filter: invert(1);
 }
