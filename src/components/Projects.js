@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/Projects/mental-health-icon.webp";
 import projImg2 from "../assets/Projects/Image-Translation Icon.png";
 import projImg3 from "../assets/Projects/rock-paper-scissor.png";
-import projImg5 from "../assets/Projects/global-flight-visualization.png";
+import projImg5 from "../assets/Projects/seizure-detection-movies.png";
 import projImg6 from "../assets/Projects/stock-market-etl.png";
 import projImg7 from "../assets/Projects/global-flight-visualization.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";

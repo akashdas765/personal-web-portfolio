@@ -3,8 +3,8 @@ import { FaGithub } from "react-icons/fa";
 
 export const ProjectCard = ({ title, description, codeDescription, imgUrl, codeUrl }) => {
   return (
-    <Col xs={12} sm={6} md={4}>
-      <div className="proj-card">
+    <Col xs={12} sm={6} md={4} className="mb-4">
+      <div className="proj-card h-100">
         <div className="proj-img-wrapper">
           <img src={imgUrl} alt={title} />
           <div className="proj-overlay">
