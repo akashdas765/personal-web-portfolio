@@ -58,7 +58,7 @@ export const Projects = () => {
       description: "Maps global flight paths and performs risk assessments using real-time data.",
       imgUrl: projImg7,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
-      videoUrl: "https://global-flight-20sgakla1-akashdas765s-projects.vercel.app/",
+      videoUrl: "https://global-flight-viz.vercel.app/",
       hasVideo: true,
     }
   ];
