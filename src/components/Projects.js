@@ -18,36 +18,48 @@ export const Projects = () => {
       description: "An AI tool to assess mental health patterns using sentiment analysis and predictive models.",
       imgUrl: projImg1,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
+      videoUrl: null,
+      hasVideo: false,
     },
     {
       title: "Multi-Language Auto–Translation using NLP",
       description: "Automatically translates text between multiple languages with neural machine translation.",
       imgUrl: projImg2,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
+      videoUrl: null,
+      hasVideo: false,
     },
     {
       title: "Rock-Paper-Scissor Simulator using OpenCV",
       description: "A computer vision-based hand gesture live game powered by 2D convolutional neural networks.",
       imgUrl: projImg3,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
+      videoUrl: "https://example.com/rock-paper-scissor-video",
+      hasVideo: true,
     },
     {
       title: "Seizure Detection in Movies",
       description: "Detects flashing patterns in movies to prevent seizure triggers using video analysis and advanced computer vision techniques",
       imgUrl: projImg5,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
+      videoUrl: null,
+      hasVideo: false,
     },
     {
       title: "Stock Market Data ETL & Visualization Platform",
       description: "Extracts, transforms, and visualizes realtime stock data using apache kafka and spark with interactive charts and insights on flask RESTful API",
       imgUrl: projImg6,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
+      videoUrl: null,
+      hasVideo: false,
     },
     {
       title: "Global Flight Visualization & Risk Analysis Tool",
       description: "Maps global flight paths and performs risk assessments using real-time data.",
       imgUrl: projImg7,
       codeUrl: "https://github.com/akashdas765?tab=repositories",
+      videoUrl: "https://global-flight-20sgakla1-akashdas765s-projects.vercel.app/",
+      hasVideo: true,
     }
   ];
 
